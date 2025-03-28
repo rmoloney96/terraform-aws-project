@@ -8,6 +8,9 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
 # Ignore .terraform directory, which contains provider plugins
 .terraform/
 
